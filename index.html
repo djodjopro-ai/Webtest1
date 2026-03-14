@@ -642,7 +642,7 @@
   <!-- ── Hero ── -->
   <section class="hero" id="hero">
     <video class="hero-video" autoplay muted loop playsinline poster="">
-      <source src="Soap.mp4" type="video/mp4">
+      <source src="soap-loop.mp4" type="video/mp4">
     </video>
     <!-- Fallback: first frame extracted or brand color if video doesn't render -->
     <div class="hero-fallback" id="heroFallback"></div>
@@ -667,7 +667,7 @@
       <div class="section-divider"></div>
       <p class="about-text">
         Svaki SApuNiJA sapun nastaje ručno, sa pažnjom i ljubavlju. Koristimo samo prirodne
-        sastojke — biljna ulja, etarska ulja i botaničke ekstrakte — kako bismo stvorili
+        sastojke kako bismo stvorili
         sapune koji neguju vašu kožu i čine svakodnevnu rutinu posebnom.
       </p>
     </div>
@@ -760,27 +760,12 @@
       <h2 class="section-heading">Kontaktirajte nas</h2>
       <div class="section-divider"></div>
     </div>
-    <div class="contact-grid section-reveal">
-      <form class="contact-form" onsubmit="event.preventDefault(); alert('Hvala na poruci! Odgovorićemo vam uskoro.');">
-        <div class="form-field">
-          <label for="name">Ime</label>
-          <input type="text" id="name" name="name" placeholder="Vaše ime" required>
-        </div>
-        <div class="form-field">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" placeholder="vaš@email.com" required>
-        </div>
-        <div class="form-field">
-          <label for="message">Poruka</label>
-          <textarea id="message" name="message" placeholder="Napišite nam poruku..." required></textarea>
-        </div>
-        <button type="submit" class="form-submit">Pošaljite</button>
-      </form>
-      <div class="contact-info">
+    <div class="contact-grid section-reveal" style="grid-template-columns:1fr; max-width:600px; margin-left:auto; margin-right:auto; margin-top:3rem; text-align:center;">
+      <div class="contact-info" style="align-items:center;">
         <div>
           <p class="contact-info-text">
             Imate pitanje ili želite da saznate više o našim sapunima?
-            Slobodno nas kontaktirajte putem forme ili nas pronađite na društvenim mrežama.
+            Slobodno nas pronađite na društvenim mrežama.
           </p>
         </div>
         <div>
